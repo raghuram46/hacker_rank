@@ -77,7 +77,7 @@ public class Pagination2 {
 
 		for (int i = 0; i < numOfItems; i++) {
 
-			System.out.println("Enter Item" + (i + 1) + " Details");
+			System.out.println("Enter Item" + (i + 1) + " Details  ");
 			String[] item = scanner.nextLine().split(" ");
 			
 			innerList.add(item[0]);
